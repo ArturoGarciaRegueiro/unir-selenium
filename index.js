@@ -1,5 +1,4 @@
 const {Builder, By} = require('selenium-webdriver');
-let fs = require('fs');
 
 (async function example() {
    let driver = await new Builder()
